@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A070B37E209F7CC800E89BDE /* PlaygroundHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A070B37C209F7CC800E89BDE /* PlaygroundHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F7C586209F7EAF00214349 /* playground-wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F7C585209F7EAF00214349 /* playground-wrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A070B379209F7CC800E89BDE /* PlaygroundHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaygroundHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A070B37C209F7CC800E89BDE /* PlaygroundHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundHelper.h; sourceTree = "<group>"; };
 		A070B37D209F7CC800E89BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F7C585209F7EAF00214349 /* playground-wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playground-wrapper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		A070B37B209F7CC800E89BDE /* PlaygroundHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A0F7C585209F7EAF00214349 /* playground-wrapper.swift */,
 				A070B37C209F7CC800E89BDE /* PlaygroundHelper.h */,
 				A070B37D209F7CC800E89BDE /* Info.plist */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F7C586209F7EAF00214349 /* playground-wrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
